@@ -17,3 +17,7 @@ A basic .NET Web API built with Entity Framework Core (Database-First) to manage
 
 ## Get response:
 <img width="1141" height="920" alt="image" src="https://github.com/user-attachments/assets/3339027c-0024-42ae-aa52-18449a61457b" />
+
+## Post Response:
+Post response is now working, as it's inserting the name & city correctly
+<img width="1046" height="499" alt="image" src="https://github.com/user-attachments/assets/b844eff5-52ed-4254-b0c6-749afa8a25bb" />
