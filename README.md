@@ -29,7 +29,6 @@ _Post response is now working, as it's inserting the name & city correctly._
 Update an existing team's details (name and city).
 
 _Sample request body:_
-```json
 {
   "teamId": 1,
   "name": "Updated Team Name",
