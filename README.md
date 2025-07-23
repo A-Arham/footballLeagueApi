@@ -19,12 +19,12 @@ A basic .NET Web API built with Entity Framework Core (Database-First) to manage
 Retrieve all teams.
 <img width="1141" height="920" alt="image" src="https://github.com/user-attachments/assets/3339027c-0024-42ae-aa52-18449a61457b" />
 
-### POST /api/teams
+### POST 
 Insert a new team by providing its name and city.
 _Post response is now working, as it's inserting the name & city correctly._
 <img width="1046" height="499" alt="image" src="https://github.com/user-attachments/assets/b844eff5-52ed-4254-b0c6-749afa8a25bb" />
 
-### PUT /api/teams/{id}
+### PUT 
 
 Update an existing team's details (name and city).
 
@@ -34,6 +34,8 @@ _Sample request body:_
   "name": "Updated Team Name",
   "city": "Updated City"
 }
+<img width="961" height="874" alt="image" src="https://github.com/user-attachments/assets/bf10962f-931f-45a4-94f9-9acf8795f7f0" />
+
 
 ### Delete Response:
 Delete a team by its ID.
