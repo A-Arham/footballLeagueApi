@@ -21,3 +21,7 @@ A basic .NET Web API built with Entity Framework Core (Database-First) to manage
 ## Post Response:
 Post response is now working, as it's inserting the name & city correctly
 <img width="1046" height="499" alt="image" src="https://github.com/user-attachments/assets/b844eff5-52ed-4254-b0c6-749afa8a25bb" />
+
+## Delete Response:
+This is the response of api, resulting after a delete operation performed on a TeamID input from user.
+<img width="1069" height="640" alt="image" src="https://github.com/user-attachments/assets/fa09c379-0743-432d-967b-cc0e04c59cf5" />
