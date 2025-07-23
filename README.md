@@ -24,6 +24,18 @@ Insert a new team by providing its name and city.
 _Post response is now working, as it's inserting the name & city correctly._
 <img width="1046" height="499" alt="image" src="https://github.com/user-attachments/assets/b844eff5-52ed-4254-b0c6-749afa8a25bb" />
 
+### PUT /api/teams/{id}
+
+Update an existing team's details (name and city).
+
+_Sample request body:_
+```json
+{
+  "teamId": 1,
+  "name": "Updated Team Name",
+  "city": "Updated City"
+}
+
 ### Delete Response:
 Delete a team by its ID.
 
