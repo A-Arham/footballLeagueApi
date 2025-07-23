@@ -15,8 +15,3 @@ A basic .NET Web API built with Entity Framework Core (Database-First) to manage
 - SQL Server
 - Swagger
 
-## Getting Started
-
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
