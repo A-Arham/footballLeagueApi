@@ -15,3 +15,5 @@ A basic .NET Web API built with Entity Framework Core (Database-First) to manage
 - SQL Server
 - Swagger
 
+## Get response:
+<img width="1141" height="920" alt="image" src="https://github.com/user-attachments/assets/3339027c-0024-42ae-aa52-18449a61457b" />
