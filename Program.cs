@@ -25,6 +25,12 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddDbContext<FootballLeagueContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Enable CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+});
 
 // ---------------------
 // Build the app
@@ -42,6 +48,9 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Football League API v1");
     });
 }
+
+// Use CORS before other middleware that handles requests
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 
